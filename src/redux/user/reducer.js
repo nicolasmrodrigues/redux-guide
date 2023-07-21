@@ -1,7 +1,7 @@
-import UserActionTypes from './actions-type';
+import UserActionTypes from './action-type';
 
 const initialState = {
-	currentUser: null,
+	currentUser: null
 };
 
 const userReducer = (state = initialState, action) => {

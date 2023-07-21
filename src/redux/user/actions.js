@@ -1,10 +1,10 @@
-import UserActionTypes from './actions-type';
+import UserActionTypes from './action-type';
 
 export const loginUser = (payload) => ({
 	type: UserActionTypes.LOGIN,
-	payload: payload,
+	payload: payload
 });
 
 export const logoutUser = () => ({
-	type: UserActionTypes.LOGOUT,
+	type: UserActionTypes.LOGOUT
 });
